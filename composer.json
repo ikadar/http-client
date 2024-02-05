@@ -1,0 +1,26 @@
+{
+    "name": "i-kadar/http-client",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "10.5.*",
+        "symfony/var-dumper": "7.0.*"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "IKadar\\HTTPClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Istvan Kadar",
+            "email": "ika@wine-logics.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-client": "7.0.*",
+        "symfony/routing": "7.1.x-dev",
+        "symfony/yaml": "7.1.x-dev"
+    }
+}

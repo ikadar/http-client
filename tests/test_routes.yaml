@@ -1,0 +1,24 @@
+getCompanies:
+  path: "/companies"
+  requirements: []
+  method: "GET"
+  queryParameters: ["name", "page", "limit"]
+
+getCompanyById:
+  path: "/company/{id}"
+  requirements:
+    id: \d+
+  method: "GET"
+  queryParameters: []
+
+getCompaniesByIds:
+  path: "/companies"
+  requirements: []
+  method: "POST"
+  queryParameters: []
+
+getNonexistentEndpoint:
+  path: "/non-existent"
+  requirements: []
+  method: "POST"
+  queryParameters: []
