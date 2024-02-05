@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3de793672f8dcc57b54c55c38c6c0e73",
+    "content-hash": "6777ce338f580df2d9bcb02e2b41bd5a",
     "packages": [
         {
             "name": "psr/container",
@@ -413,7 +413,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/1.x"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.29.0"
             },
             "funding": [
                 {
@@ -433,16 +433,16 @@
         },
         {
             "name": "symfony/routing",
-            "version": "7.1.x-dev",
+            "version": "7.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "812d5e044da5f3b72320268489d8807cd9c7722e"
+                "reference": "858b26756ffc35a11238b269b484ee3a393a74d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/812d5e044da5f3b72320268489d8807cd9c7722e",
-                "reference": "812d5e044da5f3b72320268489d8807cd9c7722e",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/858b26756ffc35a11238b269b484ee3a393a74d3",
+                "reference": "858b26756ffc35a11238b269b484ee3a393a74d3",
                 "shasum": ""
             },
             "require": {
@@ -462,6 +462,7 @@
                 "symfony/http-foundation": "^6.4|^7.0",
                 "symfony/yaml": "^6.4|^7.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -494,7 +495,7 @@
                 "url"
             ],
             "support": {
-                "source": "https://github.com/symfony/routing/tree/7.1"
+                "source": "https://github.com/symfony/routing/tree/v7.0.3"
             },
             "funding": [
                 {
@@ -510,7 +511,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-02T06:47:01+00:00"
+            "time": "2024-01-30T13:55:15+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -597,16 +598,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "7.1.x-dev",
+            "version": "7.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "6bd0f04337f225341c841d8f9625285e7052758f"
+                "reference": "2d4fca631c00700597e9442a0b2451ce234513d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/6bd0f04337f225341c841d8f9625285e7052758f",
-                "reference": "6bd0f04337f225341c841d8f9625285e7052758f",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/2d4fca631c00700597e9442a0b2451ce234513d3",
+                "reference": "2d4fca631c00700597e9442a0b2451ce234513d3",
                 "shasum": ""
             },
             "require": {
@@ -619,6 +620,7 @@
             "require-dev": {
                 "symfony/console": "^6.4|^7.0"
             },
+            "default-branch": true,
             "bin": [
                 "Resources/bin/yaml-lint"
             ],
@@ -648,7 +650,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/7.1"
+                "source": "https://github.com/symfony/yaml/tree/v7.0.3"
             },
             "funding": [
                 {
@@ -664,7 +666,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-03T18:45:40+00:00"
+            "time": "2024-01-23T15:02:46+00:00"
         }
     ],
     "packages-dev": [
@@ -2317,7 +2319,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/1.x"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.29.0"
             },
             "funding": [
                 {
@@ -2472,10 +2474,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "symfony/routing": 20,
-        "symfony/yaml": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
